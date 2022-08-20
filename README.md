@@ -20,3 +20,9 @@
 - [Programmers Level 1. 없는 숫자 더하기](https://school.programmers.co.kr/learn/courses/30/lessons/86051)
 - [Programmers Level 1. 음양 더하기](https://school.programmers.co.kr/learn/courses/30/lessons/76501)
 - [Programmers Level 1. 내적](https://school.programmers.co.kr/learn/courses/30/lessons/70128)
+
+### 22.09.03 스터디 문제 링크
+- [Programmers Level 2. 두 큐 합 같게 만들기](https://school.programmers.co.kr/learn/courses/30/lessons/118667)
+- [Programmers Level 1. 성격 유형 검사하기](https://school.programmers.co.kr/learn/courses/30/lessons/118666)
+- [Programmers Level 1. 같은 숫자는 싫어](https://school.programmers.co.kr/learn/courses/30/lessons/12906)
+- [Programmers Level 1. 최소직사각형](https://school.programmers.co.kr/learn/courses/30/lessons/86491)
