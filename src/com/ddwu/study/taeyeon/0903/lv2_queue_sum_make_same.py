@@ -13,27 +13,24 @@ answer = -2
 
 from collections import deque
 
-queue1 = deque(queue1)
-queue2 = deque(queue2)
+def solution(queue1, queue2):
+    queue1 = deque(queue1)
+    queue2 = deque(queue2)
+    
+    q1_sum = sum(queue1)
+    half_sum = (q1_sum + sum(queue2)) // 2
+    
+    cnt = 0
+    while queue1 and queue2:
+        if q1_sum == half_sum:
+            return cnt
+        elif q1_sum > half_sum:
+            q1_sum -= queue1.popleft()
+        else:
+            queue1.append(queue2.popleft())
+            q1_sum += queue1[-1]
+        cnt += 1
+        
+    return -1
 
-print(queue1, queue2)
-
-q1_sum = sum(queue1)
-half_sum = (q1_sum + sum(queue2)) // 2
-print(half_sum)
-
-cnt = 0
-while queue1 and queue2:
-  if q1_sum == half_sum:
-    print(cnt)
-    break
-  elif q1_sum > half_sum:
-    q1_sum -= queue1.popleft()
-    print(q1_sum)
-  else:
-    queue1.append(queue2.popleft())
-    q1_sum += queue1[-1]
-    print(q1_sum, queue1)
-  cnt += 1
-
-print(cnt)
+solution(queue1, queue2)
