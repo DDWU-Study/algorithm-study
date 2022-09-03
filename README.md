@@ -1,4 +1,4 @@
-![header](https://capsule-render.vercel.app/api?type=rect&color=auto&height=100&section=header&text=Algorithm%20Study%20Repository&fontSize=40)
+![header](https://capsule-render.vercel.app/api?type=rect&color=black&height=150&section=header&text=Algorithm%20Study%20Repository&fontColor=FFFFFF&fontSize=40)
 
 - git commit / push 는 자유롭게 하되 개인 폴더 사용 주의.
 - 다른 스터디원이 올린 코드 수정했을 시 push 금지
@@ -35,7 +35,7 @@
 - [Programmers Level 1. 로또의 최고 순위와 최저 순위](https://school.programmers.co.kr/learn/courses/30/lessons/77484)
 - [Programmers Level 1. 신규 아이디 추천](https://school.programmers.co.kr/learn/courses/30/lessons/72410)
 
-![Footer](https://capsule-render.vercel.app/api?type=waving&color=auto&height=200&section=footer)
+![Footer](https://capsule-render.vercel.app/api?type=waving&color=black&height=200&section=footer)
 
 
 
