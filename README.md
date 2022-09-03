@@ -1,6 +1,7 @@
 # Algorithm-study
 - git commit / push 는 자유롭게 하되 개인 폴더 사용 주의.
 - 다른 스터디원이 올린 코드 수정했을 시 push 금지
+- 코드 올리기 전 먼저 pull 받아서 repository 최신 상태로 유지 후 commit & push
 - 격주 토요일 9시까지 master branch에 코드 push
 
 ### 22.07.30 스터디 문제 링크
@@ -26,3 +27,9 @@
 - [Programmers Level 1. 성격 유형 검사하기](https://school.programmers.co.kr/learn/courses/30/lessons/118666)
 - [Programmers Level 1. 같은 숫자는 싫어](https://school.programmers.co.kr/learn/courses/30/lessons/12906)
 - [Programmers Level 1. 최소직사각형](https://school.programmers.co.kr/learn/courses/30/lessons/86491)
+
+### 22.09.24 스터디 문제 링크
+- [Programmers Level 2. 단체사진 찍기](https://school.programmers.co.kr/learn/courses/30/lessons/1835)
+- [Programmers Level 2. 멀쩡한 사각형](https://school.programmers.co.kr/learn/courses/30/lessons/62048)
+- [Programmers Level 1. K번째 수](https://school.programmers.co.kr/learn/courses/30/lessons/42748)
+- [Programmers Level 1. 완주하지 못한 선수](https://school.programmers.co.kr/learn/courses/30/lessons/42576)
