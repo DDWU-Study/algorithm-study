@@ -36,12 +36,28 @@ public class 두_큐_합_같게_만들기 {
         long sum1 = getSum(q1);
         long sum2 = getSum(q2);
 
-        int answer;
-        if(sum1 > sum2) {
-            answer = getResult(q1, q2, 0, getSum(q1), getSum(q2), count);
-        } else {
-            answer = getResult(q2, q1, 0, getSum(q2), getSum(q1), count);
+        int answer = 0;
+        while (sum1 != sum2) {
+            if(sum1 > sum2) {
+                sum1 -= q1.peek();
+                sum2 += q1.peek();
+                q2.add(q1.poll());
+                answer++;
+            } else {
+                sum2 -= q2.peek();
+                sum1 += q2.peek();
+                q1.add(q2.poll());
+                answer++;
+            }
+
+            if (answer >= count) {
+                answer = -1;
+                break;
+            }
         }
+        System.out.println(q1.toString());
+        System.out.println(q2.toString());
+
         return answer;
     }
 
@@ -55,26 +71,5 @@ public class 두_큐_합_같게_만들기 {
     public static long getSum (Queue<Long> q) {
         long sum = q.stream().mapToLong(i -> i).sum();
         return sum;
-    }
-
-    public static int getResult (Queue<Long> q1, Queue<Long> q2, int answer, long sum1, long sum2, long idx) {
-        if (sum1 == sum2) {
-            System.out.println(q1.toString());
-            System.out.println(q2.toString());
-            return answer;
-        } else if (idx == 0) {
-            return -1;
-        }
-
-        sum1 -= q1.peek();
-        sum2 += q1.peek();
-        q2.add(q1.poll());
-        answer++;
-
-        if(sum1 > sum2) {
-            return getResult(q1, q2, answer, sum1, sum2, idx - 1);
-        } else {
-            return getResult(q2, q1, answer, sum2, sum1, idx - 1);
-        }
     }
 }

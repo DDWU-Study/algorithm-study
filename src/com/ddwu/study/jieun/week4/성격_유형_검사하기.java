@@ -1,6 +1,6 @@
 package com.ddwu.study.jieun.week4;
 
-import java.util.ArrayList;
+import java.util.HashMap;
 
 public class 성격_유형_검사하기 {
 
@@ -10,7 +10,7 @@ public class 성격_유형_검사하기 {
         int[] choices1 = {5, 3, 2, 7, 5};
         System.out.println("result 1 : " + solution(survey1, choices1));
 
-        String[] survey2 = {"AN", "CF", "MJ", "RT", "NA"};
+        String[] survey2 = {"TR", "RT", "TR"};
         int[] choices2 = {7, 1, 3};
         System.out.println("result 2 : " + solution(survey2, choices2));
     }
@@ -29,47 +29,51 @@ public class 성격_유형_검사하기 {
         int getScore() { return score; }
     }
 
-    static class Type {
-        String name;
-        int score;
-
-        Type() {
-            score = 0;
-        }
-
-        public void setName(String name) { this.name = name; }
-        public void setScore(int score) { this.score += score; }
-
-        public String getName() { return name; }
-        public int getScore() { return score; }
-    }
-
     public static String solution(String[] survey, int[] choices) {
-        ArrayList<Type> typeList = new ArrayList<>();
+        HashMap<String, Integer> typeMap = new HashMap<>();
         for (int idx = 0; idx < choices.length; idx++) {
             Choice choice = getChoice(choices[idx]);
             // survey 원소 쪼개기, type.name 넣어주기
-            Type type = new Type();
             if (choices[idx] <= Choice.UNKNOWN.ordinal()) {
-                type.setName(survey[idx].substring(0, 1));
-                System.out.println("부정 : " + type.getName());
-
+                String key = survey[idx].substring(0, 1);
+                if(typeMap.containsKey(key)) {
+                    int score = typeMap.get(key) + choice.getScore();
+                    typeMap.replace(key, score);
+                } else {
+                    typeMap.put(key, choice.getScore());
+                }
             } else {
-                type.setName(survey[idx].substring(1));
-                System.out.println("긍정 : " + type.getName());
+                String key = survey[idx].substring(1);
+                if(typeMap.containsKey(key)) {
+                    int score = typeMap.get(key) + choice.getScore();
+                    typeMap.replace(key, score);
+                } else {
+                    typeMap.put(key, choice.getScore());
+                }
             }
-            // 점수 넣어주기
-            type.setScore(choice.getScore());
-            System.out.println(type.getScore());
-
         }
-        String answer = "";
+        String answer = getHighestType(typeMap);
         return answer;
     }
 
-    public void getHighestType (ArrayList<Type> typeList) {
+    public static String  getHighestType (HashMap<String, Integer> typeMap) {
         String[][] type_list = { {"R", "T"}, {"C", "F"}, {"J", "M"}, {"A", "N"} };
-        int[][] type_score = { {0, 0}, {0, 0}, {0, 0}, {0, 0} };
+        String answer = "";
+        for (String[] type : type_list) {
+            if(!typeMap.containsKey(type[0])) {
+                typeMap.put(type[0], 0);
+            }
+            if (!typeMap.containsKey(type[1])) {
+                typeMap.put(type[1], 0);
+            }
+
+            if (typeMap.get(type[0]) >= typeMap.get(type[1])) {
+                answer += type[0];
+            } else {
+                answer += type[1];
+            }
+        }
+        return answer;
     }
 
     public static Choice getChoice (int choice) {
