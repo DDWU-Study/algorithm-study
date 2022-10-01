@@ -5,7 +5,13 @@
 - 코드 올리기 전 먼저 pull 받아서 repository 최신 상태로 유지 후 commit & push
 - 격주 토요일 9시까지 master branch에 코드 push
 
-### 22.09.24 스터디 문제 링크
+### 22.10.15 스터디 문제 링크
+- [Programmers Level 2. 중복 제거하기](https://school.programmers.co.kr/learn/courses/30/lessons/59408)
+- [Programmers Level 2. 동물 수 구하기](https://school.programmers.co.kr/learn/courses/30/lessons/59406)
+- [Programmers Level 1. 체육복](https://school.programmers.co.kr/learn/courses/30/lessons/42862)
+- [Programmers Level 1. 다트 게임](https://school.programmers.co.kr/learn/courses/30/lessons/17682)
+
+### 22.10.01 스터디 문제 링크
 - [Programmers Level 2. 단체사진 찍기](https://school.programmers.co.kr/learn/courses/30/lessons/1835)
 - [Programmers Level 2. 멀쩡한 사각형](https://school.programmers.co.kr/learn/courses/30/lessons/62048)
 - [Programmers Level 1. K번째 수](https://school.programmers.co.kr/learn/courses/30/lessons/42748)
