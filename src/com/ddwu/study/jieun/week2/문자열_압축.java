@@ -64,7 +64,7 @@ public class 문자열_압축 {
             if (count != 1) {
                 // 압축이 되었을 경우
                 rslt = count + rslt;
-                System.out.println("rsltrslt);
+                System.out.println("rsltrslt");
             }
             System.out.println("prev_str : " + prev_str);
             System.out.println("last_str : " + last_str);
