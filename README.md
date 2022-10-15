@@ -6,8 +6,14 @@
 - 격주 토요일 9시까지 master branch에 코드 push
 
 ### 22.10.15 스터디 문제 링크
-- [Programmers Level 2. 중복 제거하기](https://school.programmers.co.kr/learn/courses/30/lessons/59408)
-- [Programmers Level 2. 동물 수 구하기](https://school.programmers.co.kr/learn/courses/30/lessons/59406)
+- [Programmers Level 2. 최댓값과 최솟값](https://school.programmers.co.kr/learn/courses/30/lessons/12939)
+- [Programmers Level 2. JadenCase 문자열 만들기](https://school.programmers.co.kr/learn/courses/30/lessons/12951)
+- [Programmers Level 1. 숫자 짝꿍](https://school.programmers.co.kr/learn/courses/30/lessons/131128)
+- [Programmers Level 1. 실패율](https://school.programmers.co.kr/learn/courses/30/lessons/42889)
+
+### 22.10.15 스터디 문제 링크
+- [Programmers Level 2. 중복 제거하기(SQL)](https://school.programmers.co.kr/learn/courses/30/lessons/59408)
+- [Programmers Level 2. 동물 수 구하기(SQL)](https://school.programmers.co.kr/learn/courses/30/lessons/59406)
 - [Programmers Level 1. 체육복](https://school.programmers.co.kr/learn/courses/30/lessons/42862)
 - [Programmers Level 1. 다트 게임](https://school.programmers.co.kr/learn/courses/30/lessons/17682)
 
