@@ -5,6 +5,12 @@
 - 코드 올리기 전 먼저 pull 받아서 repository 최신 상태로 유지 후 commit & push
 - 격주 토요일 9시까지 master branch에 코드 push
 
+### 22.11.06 스터디 문제 링크
+- [Programmers Level 2. 올바른 괄호](https://school.programmers.co.kr/learn/courses/30/lessons/12909)
+- [Programmers Level 2. 최솟값 만들기](https://school.programmers.co.kr/learn/courses/30/lessons/12941)
+- [Programmers Level 1. 모의고사](https://school.programmers.co.kr/learn/courses/30/lessons/42840)
+- [Programmers Level 1. 소수 찾기](https://school.programmers.co.kr/learn/courses/30/lessons/12921)
+
 ### 22.10.30 스터디 문제 링크
 - [Programmers Level 2. 최댓값과 최솟값](https://school.programmers.co.kr/learn/courses/30/lessons/12939)
 - [Programmers Level 2. JadenCase 문자열 만들기](https://school.programmers.co.kr/learn/courses/30/lessons/12951)
