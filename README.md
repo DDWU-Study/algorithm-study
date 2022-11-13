@@ -19,13 +19,6 @@
 - [Programmers Level 1. 햄버거 만들기](https://school.programmers.co.kr/learn/courses/30/lessons/133502)
 - [Programmers Level 1. 옹알이 (2)](https://school.programmers.co.kr/learn/courses/30/lessons/133499)
 
-### 22.11.13 스터디 문제 링크
-- [Programmers Level 2. 재구매가 일어난 상품과 회원 리스트 구하기(SQL)](https://school.programmers.co.kr/learn/courses/30/lessons/131536)
-- [Programmers Level 2. 조이스틱](https://school.programmers.co.kr/learn/courses/30/lessons/42860)
-- [Programmers Level 2. 이진 변환 반복하기](https://school.programmers.co.kr/learn/courses/30/lessons/70129)
-- [Programmers Level 1. 햄버거 만들기](https://school.programmers.co.kr/learn/courses/30/lessons/133502)
-- [Programmers Level 1. 옹알이 (2)](https://school.programmers.co.kr/learn/courses/30/lessons/133499)
-
 ### 22.11.05 스터디 문제 링크
 - [Programmers Level 2. 최솟값 만들기](https://school.programmers.co.kr/learn/courses/30/lessons/12941)
 - [Programmers Level 2. 올바른 괄호](https://school.programmers.co.kr/learn/courses/30/lessons/12909)
