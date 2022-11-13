@@ -1,9 +1,23 @@
 ![header](https://capsule-render.vercel.app/api?type=rect&color=black&height=150&section=header&text=Algorithm%20Study%20Repository&fontColor=FFFFFF&fontSize=40)
 
-- git commit / push 는 자유롭게 하되 개인 폴더 사용 주의.
+- git commit / push 는 자유롭게 하되 개인 디렉토리 사용 권장.
 - 다른 스터디원이 올린 코드 수정했을 시 push 금지
 - 코드 올리기 전 먼저 pull 받아서 repository 최신 상태로 유지 후 commit & push
-- 격주 토요일 9시까지 master branch에 코드 push
+- 스터디 시작 1시간 전까지 master branch에 코드 push (매주 일요일 오후 9시)
+
+### 22.11.20 스터디 문제 링크
+- [Programmers Level 2. 가격대 별 상품 개수 구하기(SQL)](https://school.programmers.co.kr/learn/courses/30/lessons/131530)
+- [Programmers Level 2. 피보나치 수](https://school.programmers.co.kr/learn/courses/30/lessons/12945)
+- [Programmers Level 2. 숫자의 표현](https://school.programmers.co.kr/learn/courses/30/lessons/12924)
+- [Programmers Level 1. 문자열 내 마음대로 정렬하기](https://school.programmers.co.kr/learn/courses/30/lessons/12915)
+- [Programmers Level 1. 2016년](https://school.programmers.co.kr/learn/courses/30/lessons/12901)
+
+### 22.11.13 스터디 문제 링크
+- [Programmers Level 2. 재구매가 일어난 상품과 회원 리스트 구하기(SQL)](https://school.programmers.co.kr/learn/courses/30/lessons/131536)
+- [Programmers Level 2. 조이스틱](https://school.programmers.co.kr/learn/courses/30/lessons/42860)
+- [Programmers Level 2. 이진 변환 반복하기](https://school.programmers.co.kr/learn/courses/30/lessons/70129)
+- [Programmers Level 1. 햄버거 만들기](https://school.programmers.co.kr/learn/courses/30/lessons/133502)
+- [Programmers Level 1. 옹알이 (2)](https://school.programmers.co.kr/learn/courses/30/lessons/133499)
 
 ### 22.11.13 스터디 문제 링크
 - [Programmers Level 2. 재구매가 일어난 상품과 회원 리스트 구하기(SQL)](https://school.programmers.co.kr/learn/courses/30/lessons/131536)
