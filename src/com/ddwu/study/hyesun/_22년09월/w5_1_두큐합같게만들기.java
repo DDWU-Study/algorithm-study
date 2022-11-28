@@ -3,6 +3,12 @@ package com.ddwu.study.hyesun._22년09월;
  * 주의점 : long 타입, -1반환, 1,2방법 끝지정, 2중간에 초과되면 return
  * <p>
  * 풀이1. 동적 리스트로 풀지말고, int[]에서 인덱스로 계산 → 투포인터?? → 2번째방법
+
+    투포인터 풀이
+    연속되는 부분합  :  포인터가 각 큐의 시작 가리킴
+
+    틀린답안
+    70점 : 20-27, 30 : Stream()사용
  */
 
 import java.util.ArrayDeque;
@@ -37,10 +43,50 @@ public class w5_1_두큐합같게만들기 {
         }
         return -1;
     }
+    static int solution_twoPointer(int[] queue1, int[] queue2) {
+
+        // Concat : 큐2 → 배열1개 합치기 : stream()사용 히든 오답 → for
+        int[] a = new int[queue1.length + queue2.length];
+        long totalSum=0, defaultSum=0;
+        for (int i = 0; i < queue1.length; i++) {
+            a[i] = queue1[i];
+            totalSum += queue1[i];
+            defaultSum += queue1[i];
+        }
+        for (int i = 0; i < queue2.length; i++){
+            a[i + queue1.length] = queue2[i];
+            totalSum += queue2[i];
+        }
+
+        if (totalSum % 2 == 1) return -1;
+        long half = totalSum / 2;
+
+        // X : [0, 0] 시작
+        // O : [0, q1.size] 시작
+        int minCnt = 0;
+        for (int start = 0, i = queue1.length; i < a.length && start <= i; i++) {
+            while (defaultSum > half) {
+                defaultSum = defaultSum - a[start++];
+                ++minCnt;
+            }
+
+            if (defaultSum < half) {
+                defaultSum += a[i];
+                ++minCnt;
+            }
+            if (defaultSum == half) return minCnt;
+        }
+        return -1;
+    }
 
     public static void main(String[] args) {
         System.out.println(solution(new int[]{3, 2, 7, 2}, new int[]{4, 6, 5, 1}));
         System.out.println(solution(new int[]{1, 2, 1, 2}, new int[]{1, 10, 1, 2}));
         System.out.println(solution(new int[]{1, 1}, new int[]{1, 5}));
+
+        System.out.println();
+        System.out.println(solution_twoPointer(new int[]{3, 2, 7, 2}, new int[]{4, 6, 5, 1}));
+        System.out.println(solution_twoPointer(new int[]{1, 2, 1, 2}, new int[]{1, 10, 1, 2}));
+        System.out.println(solution_twoPointer(new int[]{1, 1}, new int[]{1, 5}));
     }
 }
