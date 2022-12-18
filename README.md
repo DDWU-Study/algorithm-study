@@ -5,6 +5,14 @@
 - 코드 올리기 전 먼저 pull 받아서 repository 최신 상태로 유지 후 commit & push
 - 스터디 시작 1시간 전까지 master branch에 코드 push (매주 일요일 오후 9시)
 
+### 22.12.26 스터디 문제 링크 (22.12.25 대체)
+- [Programmers Level 2. 고양이와 개는 몇 마리 있을까(SQL)](https://school.programmers.co.kr/learn/courses/30/lessons/59040)
+- [Programmers Level 2. 점프와 순간 이동](https://school.programmers.co.kr/learn/courses/30/lessons/12980)
+- [Programmers Level 2. 예상 대진표](https://school.programmers.co.kr/learn/courses/30/lessons/12985)
+- [Programmers Level 3. 네트워크](https://school.programmers.co.kr/learn/courses/30/lessons/43162)
+- [Programmers Level 3. 단어 변환](https://school.programmers.co.kr/learn/courses/30/lessons/43163)
+
+
 ### 22.12.18 스터디 문제 링크
 - [Programmers Level 2. 중성화 여부 파악하기(SQL)](https://school.programmers.co.kr/learn/courses/30/lessons/59409)
 - [Programmers Level 2. 구명보트](https://school.programmers.co.kr/learn/courses/30/lessons/42885)
