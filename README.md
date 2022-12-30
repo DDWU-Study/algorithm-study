@@ -6,9 +6,9 @@
 - 스터디 시작 1시간 전까지 master branch에 코드 push (매주 일요일 오후 9시)
 
 ### 23.01.02 스터디 문제 링크 (22.01.01 대체)
-- [1260. DFS와 BFS](acmicpc.net/problem/1260)
-- [2178. 미로 탐색](acmicpc.net/problem/2178)
-- [1167. 트리의 지름](acmicpc.net/problem/1167)
+- [BOJ 1260. DFS와 BFS](https://www.acmicpc.net/problem/1260)
+- [BOJ 2178. 미로 탐색](https://www.acmicpc.net/problem/2178)
+- [BOJ 1167. 트리의 지름](https://www.acmicpc.net/problem/1167)
 
 ### 22.12.26 스터디 문제 링크 (22.12.25 대체)
 - [Programmers Level 2. 고양이와 개는 몇 마리 있을까(SQL)](https://school.programmers.co.kr/learn/courses/30/lessons/59040)
