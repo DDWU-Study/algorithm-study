@@ -5,6 +5,12 @@
 - 코드 올리기 전 먼저 pull 받아서 repository 최신 상태로 유지 후 commit & push
 - 스터디 시작 1시간 전까지 master branch에 코드 push (매주 일요일 오후 9시)
 
+### 23.01.08 스터디 문제 링크 
+- [BOJ 24479. 실버2 알고리즘 수업 - 깊이 우선 탐색 1](https://www.acmicpc.net/problem/24479)
+- [BOJ 24444. 실버2 알고리즘 수업 - 너비 우선 탐색 1](https://www.acmicpc.net/problem/24444)
+- [BOJ 2606. 실버3 바이러스](https://www.acmicpc.net/problem/2606)
+
+
 ### 23.01.02 스터디 문제 링크 (22.01.01 대체)
 - [BOJ 1260. DFS와 BFS](https://www.acmicpc.net/problem/1260)
 - [BOJ 2178. 미로 탐색](https://www.acmicpc.net/problem/2178)
