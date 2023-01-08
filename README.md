@@ -5,6 +5,11 @@
 - 코드 올리기 전 먼저 pull 받아서 repository 최신 상태로 유지 후 commit & push
 - 스터디 시작 1시간 전까지 master branch에 코드 push (매주 일요일 오후 9시)
 
+### 23.01.15 스터디 문제 링크 
+- [Programmers Level 2. 타겟 넘버](https://school.programmers.co.kr/learn/courses/30/lessons/43165)
+- [Programmers Level 2. 게임 맵 최단거리](https://school.programmers.co.kr/learn/courses/30/lessons/1844)
+- [BOJ 18352. 실버2 특정 거리의 도시 찾기](https://www.acmicpc.net/problem/18352)
+
 ### 23.01.08 스터디 문제 링크 
 - [BOJ 24479. 실버2 알고리즘 수업 - 깊이 우선 탐색 1](https://www.acmicpc.net/problem/24479)
 - [BOJ 24444. 실버2 알고리즘 수업 - 너비 우선 탐색 1](https://www.acmicpc.net/problem/24444)
