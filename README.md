@@ -5,10 +5,17 @@
 - 코드 올리기 전 먼저 pull 받아서 repository 최신 상태로 유지 후 commit & push
 - 스터디 시작 1시간 전까지 master branch에 코드 push (매주 일요일 오후 9시)
 
+### 23.02.05 스터디 문제 링크
+- [BOJ 5014. 실버1 스타트링크](https://www.acmicpc.net/problem/5014)
+- [BOJ 2468. 실버1 안전 영역](https://www.acmicpc.net/problem/2468)
+- [Programmers Level 2. 멀리 뛰기](https://school.programmers.co.kr/learn/courses/30/lessons/12914)
+- [Programmers Level 2. H-Index](https://school.programmers.co.kr/learn/courses/30/lessons/42747)
+
 ### 23.01.29 스터디 문제 링크 
 - [BOJ 2667. 실버1 단지번호붙이기](https://www.acmicpc.net/problem/2667)
 - [BOJ 1697. 실버1 숨바꼭질(1)](https://www.acmicpc.net/problem/1697)
 - [BOJ 2178. 실버1 미로탐색](https://www.acmicpc.net/problem/2178)
+
 ### 23.01.15 스터디 문제 링크 
 - [Programmers Level 2. 타겟 넘버](https://school.programmers.co.kr/learn/courses/30/lessons/43165)
 - [Programmers Level 2. 게임 맵 최단거리](https://school.programmers.co.kr/learn/courses/30/lessons/1844)
