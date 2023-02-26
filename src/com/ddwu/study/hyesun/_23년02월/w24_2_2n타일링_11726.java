@@ -2,7 +2,7 @@ package com.ddwu.study.hyesun._23년02월;
 
 
 //https://www.acmicpc.net/problem/11726
-public class w25_2_2n타일링_11726 {
+public class w24_2_2n타일링_11726 {
     public static void main(String[] args) {
         int n = new java.util.Scanner(System.in).nextInt();
 
