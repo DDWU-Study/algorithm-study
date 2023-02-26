@@ -5,6 +5,10 @@
 - 코드 올리기 전 먼저 pull 받아서 repository 최신 상태로 유지 후 commit & push
 - 스터디 시작 1시간 전까지 master branch에 코드 push (매주 일요일 오후 9시)
 
+### 23.03.05 스터디 문제 링크
+- [BOJ 1965. 실버2 상자넣기](https://www.acmicpc.net/problem/1965)
+- [BOJ 1309. 실버1 동물원](https://www.acmicpc.net/problem/1309)
+
 ### 23.02.26 스터디 문제 링크
 - [BOJ 11727. 실버3 2×n 타일링(2)](https://www.acmicpc.net/problem/11727)
 - [BOJ 7576. 골드5 토마토](https://www.acmicpc.net/problem/7576)
