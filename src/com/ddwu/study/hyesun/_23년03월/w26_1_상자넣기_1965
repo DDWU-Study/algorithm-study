@@ -1,0 +1,31 @@
+package _23년03월;
+
+import java.util.Scanner;
+
+//https://www.acmicpc.net/problem/1965/
+public class w26_1_상자넣기_1965 {
+
+    public static void main(String[] args) {
+        //input
+        Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt();
+        int[] box = new int[n];
+        for (int i = 0; i < n; i++) box[i] = sc.nextInt();
+
+        //solve
+        int ansMaxBox = 0, prevIndex = 0;
+        int[] dp = new int[n];
+        for (int i = 0; i < n; i++) {
+            dp[i] = 1;
+
+            for (int j = 0; j < i; j++) {
+                if (box[i] > box[j]) {
+                    dp[i] = Math.max(dp[i], dp[j] + 1);
+                }
+            }
+            ansMaxBox = Math.max(ansMaxBox, dp[i]);
+        }
+
+        System.out.println(ansMaxBox);
+    }
+}
