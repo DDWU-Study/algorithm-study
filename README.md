@@ -5,6 +5,11 @@
 - 코드 올리기 전 먼저 pull 받아서 repository 최신 상태로 유지 후 commit & push
 - 스터디 시작 1시간 전까지 master branch에 코드 push (매주 일요일 오후 9시)
 
+### 23.03.12 스터디 문제 링크
+- [BOJ 11057. 실버1 오르막 수](https://www.acmicpc.net/problem/11057)
+- [BOJ 1463. 실버3 1로 만들기](https://www.acmicpc.net/problem/1463)
+- [BOJ 2583. 실버1 영역 구하기](https://www.acmicpc.net/problem/2583)
+
 ### 23.03.05 스터디 문제 링크
 - [BOJ 1965. 실버2 상자넣기](https://www.acmicpc.net/problem/1965)
 - [BOJ 1309. 실버1 동물원](https://www.acmicpc.net/problem/1309)
