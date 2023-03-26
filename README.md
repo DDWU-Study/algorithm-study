@@ -5,6 +5,11 @@
 - 코드 올리기 전 먼저 pull 받아서 repository 최신 상태로 유지 후 commit & push
 - 스터디 시작 1시간 전까지 master branch에 코드 push (매주 일요일 오후 9시)
 
+### 23.04.02 스터디 문제 링크
+- [BOJ 1157. 브론즈1 단어 공부](https://www.acmicpc.net/problem/1157)
+- [BOJ 1406. 실버2 에디터](https://www.acmicpc.net/problem/1406)
+- [BOJ 20922. 실버1 겹치는 건 싫어](https://www.acmicpc.net/problem/20922)
+
 ### 23.03.26 스터디 문제 링크
 - [BOJ 15989. 실버1 1, 2, 3 더하기 4 ](https://www.acmicpc.net/problem/15989)
 
