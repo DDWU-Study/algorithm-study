@@ -5,6 +5,11 @@
 - 코드 올리기 전 먼저 pull 받아서 repository 최신 상태로 유지 후 commit & push
 - 스터디 시작 1시간 전까지 master branch에 코드 push (매주 일요일 오후 9시)
 
+### 23.04.09 스터디 문제 링크
+- [Programmers 2023 KAKAO BLIND RECRUITMENT. 이모티콘 할인행사](https://school.programmers.co.kr/learn/courses/30/lessons/150368)
+- [BOJ 2003. 수들의 합 2](https://www.acmicpc.net/problem/2003)
+- [BOJ 13458. 시험 감독](https://www.acmicpc.net/problem/13458)
+
 ### 23.04.02 스터디 문제 링크
 - [BOJ 1157. 브론즈1 단어 공부](https://www.acmicpc.net/problem/1157)
 - [BOJ 1406. 실버2 에디터](https://www.acmicpc.net/problem/1406)
