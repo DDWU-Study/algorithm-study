@@ -5,6 +5,11 @@
 - 코드 올리기 전 먼저 pull 받아서 repository 최신 상태로 유지 후 commit & push
 - 스터디 시작 1시간 전까지 master branch에 코드 push (매주 일요일 오후 9시)
 
+### 23.04.16 스터디 문제 링크
+- [BOJ 1747. 실버1 소수팰린드롬](https://www.acmicpc.net/problem/1747)
+- [BOJ 16926. 실버2 배열돌리기1](https://www.acmicpc.net/problem/16926)
+- [BOJ 5212. 실버2 지구 온난화](https://www.acmicpc.net/problem/5212)
+
 ### 23.04.09 스터디 문제 링크
 - [Programmers 2023 KAKAO BLIND RECRUITMENT. 이모티콘 할인행사](https://school.programmers.co.kr/learn/courses/30/lessons/150368)
 - [BOJ 2003. 수들의 합 2](https://www.acmicpc.net/problem/2003)
