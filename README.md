@@ -5,6 +5,11 @@
 - 코드 올리기 전 먼저 pull 받아서 repository 최신 상태로 유지 후 commit & push
 - 스터디 시작 1시간 전까지 master branch에 코드 push (매주 일요일 오후 9시)
 
+### 23.04.23 스터디 문제 링크
+- [Programmers 2022 KAKAO BLIND RECRUITMENT. 주차 요금 계산(lv2)](https://school.programmers.co.kr/learn/courses/30/lessons/92341)
+- [Programmers Level 1. 공원 산책](https://school.programmers.co.kr/learn/courses/30/lessons/172928)
+- [BOJ 2075. N번째 큰 수](https://www.acmicpc.net/problem/2075)
+
 ### 23.04.16 스터디 문제 링크
 - [BOJ 1747. 실버1 소수팰린드롬](https://www.acmicpc.net/problem/1747)
 - [BOJ 16926. 실버2 배열돌리기1](https://www.acmicpc.net/problem/16926)
